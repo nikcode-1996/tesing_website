@@ -43,11 +43,14 @@ body {
 
 .hero {
     background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('/api/placeholder/1920/1080') center/cover no-repeat;
-    height: 80vh;
+    /* height: 80vh; */
+    padding-top: 120px;
+    padding-bottom: 80px;
     display: flex;
     align-items: center;
     text-align: center;
     color: white;
+    
 }
 
 .hero-content {
