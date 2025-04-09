@@ -52,5 +52,47 @@ window.addEventListener('scroll', function() {
       }
     });
   });
+
+  $(document).ready(function(){
+    $("#import_car").owlCarousel({
+      items: 1,
+      loop: true,
+      margin: 0,
+      autoplay: true,
+      autoplayTimeout: 3000,
+      autoplayHoverPause: true,
+      dots: false,
+      nav: false,
+      responsive: {
+        768: {
+          items: 1
+        },
+        992: {
+          items: 1
+        }
+      }
+    });
+  });
+
+  $(document).ready(function(){
+    $("#export_car").owlCarousel({
+      items: 1,
+      loop: true,
+      margin: 40,
+      autoplay: true,
+      autoplayTimeout: 3000,
+      autoplayHoverPause: true,
+      dots: false,
+      nav: false,
+      responsive: {
+        768: {
+          items: 1
+        },
+        992: {
+          items: 1
+        }
+      }
+    });
+  });
   
   

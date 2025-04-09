@@ -11,6 +11,10 @@
     --neutral-color:   #f5f0e1;  /* Natural beige (optional accent) */
   }
   
+  .navbar-toggler{
+    box-shadow: none;
+  }
+
 
 .max_width{
     max-width: 1300px;
@@ -265,6 +269,18 @@ nav .nav-link:hover, nav .nav-link:active, nav .nav-link:focus, .navbar-brand:ho
     line-height: 28px;
 }
 
+.serv_info_div img{
+    object-fit: cover;
+    height: auto;
+    width: 100% !important;
+    max-height: 350px;
+}
+
+.serv_info_div{
+    height: 100%;
+    background-color: #000000;
+}
+
 .testimonials{
     padding: 5%;
     background-color: #f7f7f7;
@@ -291,6 +307,7 @@ nav .nav-link:hover, nav .nav-link:active, nav .nav-link:focus, .navbar-brand:ho
     left: 0;
     height: 100%;
     position: absolute;
+    z-index: 9;
 }
 
 .service_info{
@@ -339,6 +356,7 @@ nav .nav-link:hover, nav .nav-link:active, nav .nav-link:focus, .navbar-brand:ho
 .service_image_two{
     position: relative;
     cursor: pointer;
+    height: 100%;
 }
 
 .service_image_two::before{
@@ -349,10 +367,12 @@ nav .nav-link:hover, nav .nav-link:active, nav .nav-link:focus, .navbar-brand:ho
     left: 0;
     height: 100%;
     position: absolute;
+    z-index: 9;
 }
 
 .service_info_two{
     position: relative;
+    height: 100%;
 }
 
 .service_info_two h2{
@@ -439,4 +459,39 @@ text-decoration: none;
     background-color: #333;
     border-radius: 30px;
     margin-right: 0.5rem;
+}
+
+
+@media (max-width: 767px){
+    h1{
+        font-size: 32px;
+    }
+
+    h2{
+        font-size: 28px;
+    }
+
+    h3{
+        font-size: 24px;
+    }
+
+    p{
+        font-size: 16px;
+    }
+
+    .hero_inner_div{
+        padding: 20px;
+    }
+    
+    .service_image{
+        margin-bottom: 32px;
+    }
+
+    .serv_info_div img{
+        max-height: 250px;
+    }
+
+    .product_we_make .row{
+        flex-direction: column-reverse;
+    }
 }

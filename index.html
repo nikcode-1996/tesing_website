@@ -43,22 +43,22 @@
         <div class="header_second_row">
             <div class="row max_width align-items-center">
                 <a class="navbar-brand col-4" href="#">Elite Threads</a>
-                <button class="navbar-toggler col-4" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler col-8 text-end" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse col-8" id="navbarNav">
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item">
-                            <a class="nav-link" href="#home">Home</a>
+                            <a class="nav-link" href="#services">Services</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#about">About</a>
+                            <a class="nav-link" href="#about-us">About</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#products">Products</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#testimonials">Testimonials</a>
+                            <a class="nav-link" href="#testimonial">Testimonials</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" style="padding-right: 0 !important;" href="#contact">Contact</a>
@@ -127,7 +127,7 @@
           </div>
     </section>
 
-    <section class="about_us">
+    <section class="about_us" id="about-us">
         <div class="row max_width align-items-center">
             <div class="col-md-6">
             <h5 class="small_heading">A Few Words About</h5>
@@ -149,7 +149,7 @@
             </div>
         </div> -->
     </section>
-    <section class="our_services">
+    <section class="our_services" id="services">
         <div class="row max_width justify-content-center">
             <div class="col-md-6 text-center">
                 <h5 class="small_heading text-center d-inline-block">Company Name</h5>
@@ -158,26 +158,51 @@
         </div>
         <div class="row max_width mt-5">
             <div class="col-md-6">
-                <div class="service_info h-100">
+                <div class="service_info">
                     <h2>IMPORT</h2>
-                    <div class="service_image h-100">
-                        <img src="images/yarnimport.jpg" class="w-100 h-100" alt="Yarn">
+                    <div class="service_image">
+                        <!-- <img src="images/yarnimport.jpg" class="w-100 h-100" alt="Yarn"> -->
+                         <div class="owl-theme owl-carousel" id="import_car">
+                            <div class="serv_info_div">
+                                <img src="images/imp-1.jpeg" alt="">
+                            </div>
+                            <div class="serv_info_div">
+                                <img src="images/imp-2.jpeg" alt="">
+                            </div>
+                            <div class="serv_info_div">
+                                <img src="images/imp-3.jpeg" alt="">
+                            </div>
+                            <div class="serv_info_div">
+                                <img src="images/imp-4.jpeg" alt="">
+                            </div>
+                         </div>
                     </div>
                     <div class="service_info_second">
                         <ul style="list-style: none; padding: 0;">
-                            <li><i class="bi bi-check-circle-fill"></i>Hand Tufted Carpets</li>
-                            <li><i class="bi bi-check-circle-fill"></i>Hand Knotted Carpets</li>
-                            <li><i class="bi bi-check-circle-fill"></i>Flatweaves</li>
-                            <li><i class="bi bi-check-circle-fill"></i>Handloom</li>
+                            <li><i class="bi bi-check-circle-fill"></i>Yarn</li>
+                            <li><i class="bi bi-check-circle-fill"></i>Stitching Services</li>
+                            <li><i class="bi bi-check-circle-fill"></i>Hand/Machine Weaving Services</li>
+                            <!-- <li><i class="bi bi-check-circle-fill"></i>Handloom</li> -->
                         </ul>
                     </div>
                 </div>
             </div>
             <div class="col-md-6">
-                <div class="service_info_two h-100">
+                <div class="service_info_two">
                     <h2>EXPORT</h2>
-                    <div class="service_image_two h-100">
-                        <img src="images/export.jpg" class="w-100 h-100" alt="Yarn">
+                    <div class="service_image_two">
+                        <!-- <img src="images/export.jpg" class="w-100 h-100" alt="Yarn"> -->
+                        <div class="owl-theme owl-carousel" id="export_car">
+                            <div class="serv_info_div">
+                                <img src="images/exp-1.jpeg" alt="">
+                            </div>
+                            <div class="serv_info_div">
+                                <img src="images/exp-2.jpeg" alt="">
+                            </div>
+                            <div class="serv_info_div">
+                                <img src="images/exp-3.jpeg" alt="">
+                            </div>
+                         </div>
                     </div>
                     <div class="service_info_second_two">
                         <ul style="list-style: none; padding: 0;">
@@ -185,6 +210,8 @@
                             <li><i class="bi bi-check-circle-fill"></i>Hand Knotted Carpets</li>
                             <li><i class="bi bi-check-circle-fill"></i>Flatweaves</li>
                             <li><i class="bi bi-check-circle-fill"></i>Handloom</li>
+                            <li><i class="bi bi-check-circle-fill"></i>Wool</li>
+                            <li><i class="bi bi-check-circle-fill"></i>All Types of Apparels</li>
                         </ul>
                     </div>
                 </div>
@@ -192,7 +219,7 @@
         </div>
     </section>
 
-    <section class="product_we_make">
+    <section class="product_we_make" id="products">
         <div class="row max_width align-items-center">
             <div class="col-md-5">
                 <img src="images/pwm.jpg" class="h-100" style="width: 100%;" alt="">
@@ -214,10 +241,10 @@
 
     
 
-    <section class="testimonials">
+    <section class="testimonials" id="testimonial">
         <div class="row max_width">
             <div class="col-12">
-                <h5 class="small_heading">Our testimonials</h5>
+                <h5 class="small_heading">Our Testimonials</h5>
                 <h2 class="mt-3 mb-5">What our clients say</h2>
             </div>
             <div class="col-12">
@@ -278,11 +305,11 @@
 
     <footer>
     <section class="footer_main">
-     <div class="footer_secondary max_width">
-        <div class="col-md-6">
+     <div class="footer_secondary row max_width">
+        <div class="col-md-4 my-3">
             <a class="footer_logo" href="#">Elite Threads</a>
         </div>
-        <div class="col-md-3">
+        <div class="col-md-4 my-3">
             <h5>Services</h5>
             <ul class="p-0" style="list-style:none;">
                 <li>
@@ -300,9 +327,9 @@
                 
             </ul>
         </div>
-        <div class="col-md-3">
+        <div class="col-md-4 my-3">
             <h5>Contact us</h5>
-            <ul class="p-0" style="list-style:none;">
+            <ul class="p-0 my-3" style="list-style:none;">
                 <li>
                 2334 Spencer Ways, Robertsview,
                 <br> New Mexico - 25955, Tokelau
